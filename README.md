@@ -8,15 +8,7 @@ A small creator-run Instagram store that sells thrifted fashion items and handma
 
 ## Entities
 
-| Entity | Description |
-| `customers` | Stores customer details and address |
-| `orders` | Tracks each order placed by a customer |
-| `order_items` | Junction table linking orders and products |
-| `products` | Core product details shared across all types |
-| `thrifted_products` | Thrift-specific details like condition and brand |
-| `handmade_products` | Handmade-specific details like material and batch count |
-| `payments` | Payment status and method per order |
-| `shipping` | Courier, tracking, and delivery status per order |
+![Entities with Description](er-diagram.jpeg)
 
 ## Key Design Decisions
 
@@ -24,9 +16,4 @@ The `products` table holds common fields while `thrifted_products` and `handmade
 
 ## Diagram
 
-![ER Diagram](er-diagram.png)
-
-## Assignment
-
-**Web Dev Cohort 2026 Databases**
-Timeline: 6 Apr 2026
+![ER Diagram](er-diagram.jpeg)

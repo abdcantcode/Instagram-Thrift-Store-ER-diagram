@@ -24,7 +24,7 @@ The `products` table holds common fields while `thrifted_products` and `handmade
 
 ## Diagram
 
-See `er-diagram.png` in this repository.
+![ER Diagram](er-diagram.png)
 
 ## Assignment
 

@@ -8,7 +8,7 @@ A small creator-run Instagram store that sells thrifted fashion items and handma
 
 ## Entities
 
-![Entities with Description](er-diagram.jpeg)
+![Entities Table](entities.png)
 
 ## Key Design Decisions
 
